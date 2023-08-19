@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Weathter App</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+          This app was created by Oksana Yanko and it is 
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          open-sourced
         </a>
+        </p>
       </header>
     </div>
   );
