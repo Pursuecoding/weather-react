@@ -3,6 +3,7 @@
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
         <h1>Weathter App</h1>
         <p>
@@ -17,6 +18,7 @@ function App() {
         </a>
         </p>
       </header>
+      </div>
     </div>
   );
 }
