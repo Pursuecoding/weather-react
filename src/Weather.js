@@ -22,7 +22,8 @@ export default function Weather() {
                     <img 
                     src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png"
                     alt="cloudy" />
-                    6°C
+                    <span className="temperature">6</span>
+                    <span className="unit">°C</span>
                 </div>
                 <div className="col-6">
                     <ul>

@@ -4,3 +4,26 @@
     border-radius: 10px;
     padding: 15px;
 }
+
+.Weather .temperature {
+    margin-left: 10px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.Weather .unit {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    position: relative;
+    top: -20px;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Weather li {
+    list-style: none;
+}
