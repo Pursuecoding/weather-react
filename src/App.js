@@ -1,12 +1,12 @@
 import Weather from "./Weather";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <h1>Weathter App</h1>
-        <Weather />
+        <Weather defaultCity="San Diego" />
         <p>
           This app was created by Oksana Yanko and it is{" "}
         <a
