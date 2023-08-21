@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <Weather defaultCity="San Diego" />
+        <Weather defaultCity="Gainesville" />
         <p>
           This app was created by Oksana Yanko and it is{" "}
         <a
