@@ -18,7 +18,7 @@ export default function Weather(props) {
             humidity: response.data.main.humidity,
             city: response.data.name,
             description: response.data.weather[0].description,
-            iconUrl: "https://ssl.gstatic.com/onebox/weather/64/rain_light.png"
+            iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
         })
     }
 
